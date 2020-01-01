@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Position</title>
+
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 400%; /* 여기를 400%로 하니까 스크롤바가 생김 100%였을 때는 없었고 */
+        background-color: red;
+      }
+
+      /* 1. fixed position */
+      /* #boxOne {
+        height: 300px;
+        width: 300px;
+        background-color: yellow;
+        position: static;
+      }
+      #boxTwo {
+        height: 300px;
+        width: 300px;
+        background-color: green;
+        position: fixed;
+        left: 100px; 
+      } */
+
+      /* 2. absolute, relative position */
+      .abs-box {
+        width: 400px;
+        height: 400px;
+        background-color: yellow;
+        position: relative;
+      }
+      .abs-child {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        position: absolute;
+        right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 1. fixed position -->
+    <!-- <div id="boxOne">
+      <div class="box-child"></div>
+    </div>
+
+    <div id="boxTwo">
+      <div class="box-child"></div>
+    </div> -->
+
+    <!-- 2. absolute, relative position  -->
+    <div class="abs-box">
+      <div class="abs-child"></div>
+    </div>
+  </body>
+</html>
