@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pseudo Selectors</title>
+    <style>
+      /* input[type="submit"] {
+        background-color: red;
+      } */
+      input[required="required"] {
+        background-color: blue;
+      }
+      input {
+        border: 3px solid yellow;
+      }
+      .box {
+        border: 2px solid yellow;
+      }
+      .box {
+        background-color: green;
+        display: block;
+        height: 100px;
+        border: 1px solid black;
+      }
+      /* 첫 번째 box를 select */
+      /* .box:first-child {
+        background-color: pink;
+      } */
+
+      /* 두 번째 box를 select */
+      /* .box:last-child {
+        background-color: pink;
+      } */
+
+      /* n번째 box를 select하는 것 안에 수식입력 가능 */
+      /* .box:nth-child(2n + 1) {
+        background-color: pink;
+      } */
+
+      /* 서로가 형제라는 뜻 */
+      /* input + .box {
+        border: 2px solid yellow;
+      } */
+
+      /* 직계 direct child라는 의미 */
+      /* 그 밑에 다른 박스는 해당되지 않고 직계 자식만 선택 */
+      .container > .box {
+        background-color: yellow;
+      }
+      .child {
+        width: 40px;
+        background-color: purple;
+      }
+      .test {
+        width: 30px;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="box child test"></div>
+      </div>
+      <div class="box"></div>
+      <div class="box">
+        <input type="password" required="required" />
+        <input type="submit" required="required" />
+      </div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
