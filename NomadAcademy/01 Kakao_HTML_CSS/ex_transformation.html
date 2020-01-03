@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Transformation</title>
+
+    <!-- transform 효과 정리해놓은 사이트 -->
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/transform -->
+    <style>
+      .box {
+        width: 500px;
+        height: 500px;
+        background-color: blue;
+        transition: all 0.5s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      /* .box:hover {
+        transform: rotate(4turn) scale(1.5, 1.5);
+      } */
+      .child:hover {
+        width: 300px;
+        height: 300px;
+        background-color: pink;
+        transform: rotate(1turn) scale(1.5, 1.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="box child"></div>
+      <div class="box child"></div>
+      <div class="box child"></div>
+    </div>
+  </body>
+</html>
