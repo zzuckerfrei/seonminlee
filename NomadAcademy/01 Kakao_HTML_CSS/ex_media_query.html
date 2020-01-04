@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Media Query</title>
+    <style>
+      body {
+        background-color: green;
+      }
+      /* 화면크기가 320~640 사이에 들어오면 blue가 된다
+      그 외에는 body 기본 값인 green이 되고 */
+      @media screen and (min-width: 320px) and (max-width: 640px) {
+        body {
+          background-color: blue;
+        }
+      }
+    </style>
+  </head>
+  <body></body>
+</html>

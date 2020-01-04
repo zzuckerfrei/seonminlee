@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Animation</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        animation: 5s ScaleAndRotateSquere infinite ease-in-out;
+      }
+
+      /* 1. from/to 사용법 */
+      /* @keyframes ScaleAndRotateSquere {
+        from {
+          transform: none;
+        }
+
+        to {
+          transform: rotate(1turn) scale(0.5, 0.5);
+        }
+      } */
+
+      /* 2. % 사용법 */
+      /* 0-50% 될 때 커지고
+      50-100% 될 때 작아지는 반복 */
+      @keyframes ScaleAndRotateSquere {
+        0% {
+          transform: none;
+        }
+        25% {
+          transform: rotate(1turn) scale(0.5, 0.5);
+          background-color: pink;
+          color: white;
+          font-size: 15px;
+        }
+        50% {
+          background-color: yellow;
+        }
+        75% {
+          background-color: pink;
+        }
+        100% {
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">my first animation</div>
+  </body>
+</html>
