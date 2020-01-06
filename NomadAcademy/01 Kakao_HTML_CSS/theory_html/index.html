@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mixing CSS and HTML</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- <link href="style.css" /> -->
+
+    <style>
+      body,
+      html {
+        padding: 10px;
+        margin: 20px;
+        background-color: green;
+        height: 100%;
+      }
+      .box {
+        background-color: yellow;
+        width: 50%;
+        height: 50%;
+        margin-top: 50px;
+        margin-left: 50px;
+        padding-top: 50px;
+        padding-left: 50px;
+
+        padding: 50px; /* 상하좌우 전체 */
+        padding: 20px 10px; /* 상하, 좌우*/
+        padding: 20px 10px 5px 2px; /* 상 우 하 좌(시계방향)*/
+      }
+      .inside-box {
+        background-color: blue;
+        width: 50%;
+        height: 50%;
+        border-width: 5px;
+        border-color: red;
+        border-style: dashed;
+
+        /* border 사용 단축키 */
+        /* 5픽셀, 점선, 빨간색의 의미임 */
+        border: 5px dashed red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Title</h1>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat porro
+      iste ut doloribus, fugiat, unde provident rerum, et molestias quasi amet
+      saepe corporis sapiente necessitatibus? Voluptas distinctio assumenda
+      maiores nesciunt?
+    </p>
+    <a href="ex_contact-me.html"> fake link</a>
+    <a href="ex_inline.html"> inline link</a>
+    <a href="ex_position.html"> position link</a>
+    <a href="ex_flex.html"> flex link</a>
+
+    </div>
+  </body>
+</html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Chats | kakao clone</title>
+    <title>More | kakao clone</title>
     <!-- fontawesome 사이트에서 가져온 일종의 key임 
     이 key를 활용하여 css파일을 import하고 이모티콘을 사용함-->
     <link
@@ -34,14 +34,14 @@
     -->
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header__title">Chats</h1>
+        <h1 class="header__title">More</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
         <span class="header__icon">
-          <i class="far fa-comment"></i>
+          <i class="fas fa-qrcode"></i>
         </span>
         <span class="header__icon">
           <i class="fas fa-cog"></i>
@@ -49,65 +49,30 @@
       </div>
     </header>
     <!-- 
-    chat list part 
-    -->
-    <main class="chats">
-      <ul class="chats__list">
-        <li class="chats__chat">
-          <!-- class명 주의할 것
-          chats는 채팅목록을 가리키는 것 같고
-          chat은 채팅방 1개 전체를 가리키는 class명 같음-->
-          <div class="chat__column">
-            <!-- g-avatar는 global avatar를 의미함. 
-              클래스를 만드는 것. 반복해서 사용하기 위해 -->
-            <img
-              src="images/profile_img.jpg"
-              alt="fuck"
-              class="chat_avatar g-avatar"
-            />
-            <div class="chat__content">
-              <span class="chat__username">Lynn</span>
-              <span class="chat__usernumber">
-                <span>1명</span>
-              </span>
-              <span class="chat__mute">
-                <i class="fas fa-volume-mute"></i>
-              </span>
-              <span class="chat_preview">Going Home!</span>
-            </div>
-          </div>
-          <div class="chat__column">
-            <span class="chat__timestamp">Yesterday</span>
-          </div>
-        </li>
-      </ul>
-    </main>
-
-    <!-- 
-      Navigation Bar part
+      Navigation Bar 
     -->
     <nav class="nav">
       <ul class="nav__list">
         <!-- li.nav__list-item*4>a.nav__list-link -->
         <li class="nav__list-item">
-          <a href="friends.html" class="nav__list-link">
-            <i class="far fa-user"></i
-          ></a>
+          <a href="friends.html" class="nav__list-link"
+            ><i class="far fa-user"></i>
+          </a>
         </li>
         <li class="nav__list-item">
-          <a href="index.html" class="nav__list-link"
-            ><i class="fas fa-comment"></i>
+          <a href="index.html" class="nav__list-link">
+            <i class="far fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">
           <a href="find.html" class="nav__list-link">
-            <i class="fas fa-search"></i
-          ></a>
+            <i class="fas fa-search"></i>
+          </a>
         </li>
         <li class="nav__list-item">
           <a href="more.html" class="nav__list-link">
-            <i class="fas fa-ellipsis-h"></i
-          ></a>
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
         </li>
       </ul>
     </nav>
@@ -134,12 +99,5 @@
   a 태그 안에 제대로 넣어야 클릭할 때 넘어간다... 조심하기
 9. main은 브라우져내에서 이 부분부터 메인이라고 지정되는 부분임?? 디자인측면에서
 10. 모든 폴더와 파일명은 전부 소문자로 써야한다.
-11. 태그의 의미
-    div -> box
-    span -> box for text
-    ul -> list
-    li -> inside of list.
-12. 단축키 ctrl + d
-    누를 때 마다 같은 단어를 찾아줌 
-    동시에 수정할 때 유리함 alt보다 더 좋은듯
+
 -->
