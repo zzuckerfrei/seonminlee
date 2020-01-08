@@ -1,0 +1,57 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 1500px;
+}
+
+.red {
+  position: fixed;
+  width: 630px;
+  height: 65px;
+  background-color: #ff7979;
+  top: 0px;
+}
+
+.blue {
+  position: relative;
+  width: 465px;
+  height: 385px;
+  background-color: #7ed6df;
+  display: inline-block;
+  top: 65px;
+}
+
+.yellow {
+  position: absolute;
+  width: 165px;
+  height: 385px;
+  /* 이거 box-sizing 사용이 포인트인듯 */
+  box-sizing: border-box;
+  background-color: #ffcc00;
+  display: inline-block;
+  border: 5px solid grey;
+  top: 65px;
+  left: 465px;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  position: absolute;
+  padding: 50px;
+}
+
+.green {
+  background-color: #badc58;
+  height: 30px;
+  width: 80px;
+  position: relative;
+  bottom: 335px;
+  left: 425px;
+}
