@@ -36,7 +36,7 @@
     <header class="header">
       <div class="header__header-column">
         <a href="index.html" class="header__back-btn">
-          <i class="fas fa-arrow-left fa-2x"></i>
+          <i class="fas fa-arrow-left"></i>
         </a>
         <h1 class="header__title">Best Friend</h1>
       </div>
@@ -144,6 +144,7 @@
     동시에 수정할 때 유리함 alt보다 더 좋은듯
 
 오늘 배운 것 20.01.07
+
 1. 궁금하던 class 에서의 space 의미 
     If you put space on a class that would be two classes.
     1) 'something__like__this' is one class
@@ -158,4 +159,76 @@
   
 
   
+오늘 배운 것 20.01.08
+
+1. 시작할 때 css 파일을 reset시켜주는 것이 좋다
+  브라우저마다 default값이 다르고, 직접 일일이 수정하면 귀찮으니까
+  reset css 검색해서 복붙하고, import 시켜주는 방법 익힘
+  reset css사용하면 모든 default값이 0이 됨
+
+  reset.css 쓰고싶지 않으면 즉 default=0으로 만들고싶지 않으면
+  normalize.css같은 것을 복붙해도 됨 그건 자기 선택이니까
+
+2. justify-content햇을 때 바로 아래 element들만 선택해서 위치를 이동시킴
+  어차피 하위 element묶음으로 만든거라 전체가 움직이게 만드는 것이지만
+  적는 것은 1번만 적음 
+
+3. text font 조정하기
+  google font에 접속해서 원하는 font를 선택하고, customize에서 bold같은 옵션 선택
+  styles.css에 붙여넣기 했음 
+  웹 전체에 사용하기 위해서 styles.css에 위치시킨 것 같음 
+  그리고 font-family로 사용함
+
+4. 하위 태그 스타일 변경하는 방법
+  1) status-bar class 아래에 i 태그가 있는 경우
+  .status-bar i {
+  font-size: 14px;
+  }
+
+  2) status-bar class 아래 status-bar__battery-level class가 있는 경우
+  .status-bar .status-bar__battery-level {
+  margin-left: 4px;
+  }
+  }
+
+5. box-sizing: border-box 사용법
+  padding과 border 모두 width에 포함되지 않습니다
+  만약 매번 이렇게 계산하는 것이 싫다면 
+  box-sizing: border-box를 주면 됩니다. 
+  그러면 width와 height는 content의 너비가 아니라 
+  border까지 포함한 태그의 너비가 됩니다
+
+
+
+
+  오늘 알게된 것 20.01.10 
+
+1. box-shadow
+    box에 그림자효과를 주는 css문법
+    * 참고사이트: https://www.codingfactory.net/10628
+    box-shadow: 0px 0px 15px #95a5a6;
+    가로/세로 위치, 그림자 흐릿한 정도15px, 그림자색깔
+
+2. border-radius
+    바깥 테두리의 모서리를 둥글게 만드는 css문법
+    원래 top,bottom,right,left 각각 지정 가능하지만
+    border-radius로 한 번에 변경 가능함
+
+3. A에 hover했을 때 B를 변경시키는 방법!
+
+    .btn:hover + .pic { ....} 사용
+
+    .btn:hover + .pic {
+    border: 5px solid black;
+    transform: rotate(135deg) scale(0.5, 0.5);
+    }
+
+4. font 두께 조절
+  font-weight: 600;
+  
+5. 커서를 포인터로 띄우게 하는 방법
+  cursor: pointer;
+
+6. color: inherit;
+    부모 element로부터 색깔을 받아온다는 의미
 -->
