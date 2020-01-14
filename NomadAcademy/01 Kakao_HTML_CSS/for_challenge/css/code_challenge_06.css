@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,500,600,700&display=swap");
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  background-color: black;
+  margin: 10px;
+
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.airpods {
+  width: 520px;
+  height: 600px;
+  background-color: #ffffff;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #25252a;
+  margin-bottom: 20px;
+}
+
+.airpods__content {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 30px 0px 30px;
+}
+
+.airpods__title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.airpods__text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #b9bdc2;
+}
+
+.airpods__info-column {
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px 0px 30px;
+}
+
+.airpods__price {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.airpods__rating-count {
+  font-size: 20px;
+  font-weight: 500;
+  color: #b9bdc2;
+}
+
+/* -------------------------------- */
+
+.profile {
+  width: 500px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.profile__back-pic {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 45%;
+}
+
+.profile__pic {
+  /* width: 100%;
+  height: 100%; */
+  position: absolute;
+  top: 33%;
+  /* left: px; */
+}
+
+.profile__pic img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-size: contain;
+  border: 5px solid white;
+}
+
+.profile__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.profile__name {
+  font-size: 30px;
+  font-weight: 600;
+  color: #3b3c3f;
+  margin-bottom: 7px;
+}
+
+.profile__feel {
+  font-size: 20px;
+  font-weight: 500;
+  color: #848b96;
+}
+
+.profile__action {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 43px;
+}
+
+.action__column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action__column .follow-btn {
+  background-color: #6b75ff;
+  color: #fdfdff;
+  width: 200px;
+  height: 65px;
+  border-radius: 5%;
+  margin-left: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.action__column .message-btn {
+  color: #6b75ff;
+  background-color: #eaecff;
+  width: 200px;
+  height: 65px;
+  border-radius: 5%;
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
