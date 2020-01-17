@@ -52,7 +52,7 @@
     status-bar, header, navi-bar part를 제외한 
     find의 본문이 담기는 곳
      -->
-    <main>
+    <main class="find">
       <!--
       버튼 4개 있는 header part
       반복되기 때문에 버튼 1개를 만들고 복붙해서 활용함 
@@ -101,18 +101,14 @@
       <!-- 
         버튼4개 아래 Recommended Friends 리스트 부분
        -->
-      <h5 class="find__title">
-        Recommended Friends
-      </h5>
       <ul class="find__recommended">
-        <li class="find__friend">
+        <h5 class="find__title">
+          Recommended Friends
+        </h5>
+        <li class="find__friend friend">
           <!-- 친구 프로필의 첫 번째 컬럼 -->
           <div class="friend__column">
-            <img
-              src="images/profile_img.jpg"
-              alt=""
-              class="g-avatar friend__avatar"
-            />
+            <img src="images/profile_img.jpg" alt="" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 이선민
