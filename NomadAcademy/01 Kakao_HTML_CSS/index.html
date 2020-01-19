@@ -269,4 +269,19 @@
     class에 짝을 맞춰서 작업한다는 느낌으로
 
 2. 네모박스의 크기 조절은 width로 주는게 아니라, padding과 margin으로 크기를 조절한다
-  -->
+
+
+오늘 배운 것 20.01.19
+1. sibling selector (~)
+  css는 위에서 아래로 진행되므로, 애니메이션 효과도 원본을 위에 놓아야 한다
+    그럴 때 ~를 사용한다. 
+    ~ 는 바로 뒤에 나오는 sibling을 선택한다는 의미이다.
+    예시 
+    .chat__write:focus ~ .chat__icon { ... }
+    
+    그러므로 html에서는 아이콘이 input 다음에 있어야만 이렇게 사라지는
+    transition을 쓸 수 있음
+
+2. @keyframe에서 forwards의 의미:
+    끝난 후에도 value를 계속 유지하게 하는 것
+-->

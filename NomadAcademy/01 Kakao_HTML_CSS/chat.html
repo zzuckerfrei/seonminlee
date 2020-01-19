@@ -14,41 +14,43 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body class="chats-body">
-    <!-- 
-      status-bar part 
-    -->
-    <div class="status-bar">
-      <!-- status-bar는 부모, column은 자식 __로 부모와 자식을 구분 -->
-      <div class="status-bar__column">
-        <span class="status-bar__clock">13:53</span>
+    <div class="header-wrapper">
+      <!-- 
+        status-bar part 
+      -->
+      <div class="status-bar">
+        <!-- status-bar는 부모, column은 자식 __로 부모와 자식을 구분 -->
+        <div class="status-bar__column">
+          <span class="status-bar__clock">13:53</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
+      <!-- 
+        header part 
+      -->
+      <header class="header">
+        <div class="header__header-column">
+          <a href="index.html" class="header__back-btn">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <h1 class="header__title">Best Friend</h1>
+        </div>
+        <div class="header__header-column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </div>
+      </header>
     </div>
-    <!-- 
-      header part 
-    -->
-    <header class="header">
-      <div class="header__header-column">
-        <a href="index.html" class="header__back-btn">
-          <i class="fas fa-arrow-left"></i>
-        </a>
-        <h1 class="header__title">Best Friend</h1>
-      </div>
-      <div class="header__header-column">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-bars"></i>
-        </span>
-      </div>
-    </header>
     <!-- 
     채팅메시지 주고받는 part
      -->
@@ -109,22 +111,22 @@
     메시지 작성하는 창. 사진첨부, 이모티콘 첨부 등
     3컬럼으로 구성됨
      -->
-    <div class="chat__write">
+    <div class="chat__write--container">
+      <input
+        class="chat__write"
+        type="text"
+        placeholder="Send message"
+        class="chat__write-input"
+      />
+
       <!-- + 모양 -->
-      <div class="chat__write-column">
+      <div class="chat__icon-left chat__icon">
         <i class="far fa-plus-square"></i>
       </div>
-      <!-- text입력창 -->
-      <div class="chat__write-column">
-        <input
-          type="text"
-          placeholder="Send message"
-          class="chat__write-input"
-        />
-      </div>
+
       <!-- 이모티콘첨부, 마이크 -->
       <!-- 굳이 span을 2개 만들어서 각각 담은 이유 뭐지? -->
-      <div class="chat__write-column">
+      <div class="chat__icon-right chat__icon">
         <span class="chat__write-icon">
           <i class="far fa-smile-wink"></i>
         </span>
