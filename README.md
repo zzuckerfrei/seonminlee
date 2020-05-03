@@ -6,4 +6,8 @@
 02 Vanilla JS
 2019.12.12 - 2019.12.28
 
-03 Youtube clone
+--03 Youtube clone
+
+03 pandas 
+
+04 Django
