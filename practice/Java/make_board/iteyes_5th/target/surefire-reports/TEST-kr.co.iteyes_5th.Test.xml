@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="kr.co.iteyes_5th.Test" time="0.013" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\jre\bin"/>
+    <property name="java.vm.version" value="25.242-b08"/>
+    <property name="java.vm.vendor" value=""/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\seonm\eclipse-workspace\iteyes_5th"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\seonm\eclipse-workspace\iteyes_5th"/>
+    <property name="java.runtime.version" value="1.8.0_242-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\seonm\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\seonm\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8366569454298359594.tmp"/>
+    <property name="sun.jnu.encoding" value="MS949"/>
+    <property name="java.library.path" value="C:\Program Files\Java\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64/java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64/jre/bin/server;C:/Program Files/Java/java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64/java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64/jre/bin;C:/Program Files/Java/java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64/java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64/jre/lib/amd64;C:\app\seonm\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\bin;C:\Users\seonm\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\seonm\OneDrive\바탕 화면;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\seonm"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="seonm"/>
+    <property name="java.class.path" value="C:\Users\seonm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ko"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_242"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\jre\lib\resources.jar;C:\Program Files\Java\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\jre\lib\rt.jar;C:\Program Files\Java\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\jre\lib\sunrsasign.jar;C:\Program Files\Java\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\jre\lib\jsse.jar;C:\Program Files\Java\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\jre\lib\jce.jar;C:\Program Files\Java\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\jre\lib\charsets.jar;C:\Program Files\Java\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\jre\lib\jfr.jar;C:\Program Files\Java\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\java-1.8.0-openjdk-1.8.0.242-1.b08.ojdkbuild.windows.x86_64\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\seonm\eclipse-workspace\iteyes_5th\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="kr.co.iteyes_5th.Test" name="sessionTest" time="0.012">
+    <error message="Unresolved compilation problem: 
+	Resource specification not allowed here for source level below 1.7
+" type="java.lang.Error">java.lang.Error: Unresolved compilation problem: 
+	Resource specification not allowed here for source level below 1.7
+
+	at kr.co.iteyes_5th.Test.sessionTest(Test.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>INFO : org.springframework.test.context.support.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+INFO : org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71423665, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20398b7c, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@6fc6f14e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@56235b8e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3632be31, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5abca1e0]
+INFO : org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from file [C:\Users\seonm\eclipse-workspace\iteyes_5th\src\main\webapp\WEB-INF\spring\root-context.xml]
+INFO : org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@7d0587f1: startup date [Wed Feb 12 23:24:46 KST 2020]; root of context hierarchy
+INFO : org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 &apos;javax.inject.Inject&apos; annotation found and supported for autowiring
+INFO : org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+</system-out>
+  </testcase>
+  <testcase classname="kr.co.iteyes_5th.Test" name="test" time="0.001">
+    <error message="Unresolved compilation problem: 
+	Resource specification not allowed here for source level below 1.7
+" type="java.lang.Error">java.lang.Error: Unresolved compilation problem: 
+	Resource specification not allowed here for source level below 1.7
+
+	at kr.co.iteyes_5th.Test.test(Test.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+  <testcase classname="kr.co.iteyes_5th.Test" name="factoryTest" time="0"/>
+</testsuite>

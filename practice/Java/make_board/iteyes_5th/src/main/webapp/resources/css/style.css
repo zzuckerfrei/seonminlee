@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+
+body {
+	margin-top:60px;
+	
+	background-color:#dadbdc;
+	
+}
+
+.container {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header {
+	color: #0000a0;
+    font-size:70px;
+    font-weight:700;
+    justify-content: center;
+    
+    
+}
+
+#big-table{
+	font-size:20px;
+	color:#353535;
+	
+}
+
+.table .table-hover{
+	color:yellow;
+}
+
+#title .chk{
+	margin-left:20px
+}

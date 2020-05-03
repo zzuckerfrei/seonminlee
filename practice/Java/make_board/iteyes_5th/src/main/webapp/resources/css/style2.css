@@ -1,0 +1,29 @@
+body {
+	margin-top:60px;
+	
+	background-color:#dadbdc;
+	
+}
+
+.header {
+	color: #0000a0;
+    font-size:70px;
+    justify-content: center;
+    
+}
+
+#root {
+	margin-left:100px
+}
+
+#nav-update {
+	font-size:20px;
+}
+
+#title .chk{
+	margin-left:50px
+}
+
+#content .chk{
+	margin-left:50px
+}
